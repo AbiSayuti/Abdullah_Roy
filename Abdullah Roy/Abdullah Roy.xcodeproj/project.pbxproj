@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACADB4261FD2638A0092E7DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB4251FD2638A0092E7DD /* AppDelegate.swift */; };
+		ACADB4281FD2638A0092E7DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB4271FD2638A0092E7DD /* ViewController.swift */; };
+		ACADB42B1FD2638A0092E7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADB4291FD2638A0092E7DD /* Main.storyboard */; };
+		ACADB42D1FD2638A0092E7DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACADB42C1FD2638A0092E7DD /* Assets.xcassets */; };
+		ACADB4301FD2638A0092E7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADB42E1FD2638A0092E7DD /* LaunchScreen.storyboard */; };
+		ACADB43B1FD2638A0092E7DD /* Abdullah_RoyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB43A1FD2638A0092E7DD /* Abdullah_RoyTests.swift */; };
+		ACADB4461FD2638A0092E7DD /* Abdullah_RoyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB4451FD2638A0092E7DD /* Abdullah_RoyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACADB4371FD2638A0092E7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACADB41A1FD2638A0092E7DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACADB4211FD2638A0092E7DD;
+			remoteInfo = "Abdullah Roy";
+		};
+		ACADB4421FD2638A0092E7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACADB41A1FD2638A0092E7DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACADB4211FD2638A0092E7DD;
+			remoteInfo = "Abdullah Roy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACADB4221FD2638A0092E7DD /* Abdullah Roy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abdullah Roy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACADB4251FD2638A0092E7DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACADB4271FD2638A0092E7DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACADB42A1FD2638A0092E7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACADB42C1FD2638A0092E7DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACADB42F1FD2638A0092E7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACADB4311FD2638A0092E7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACADB4361FD2638A0092E7DD /* Abdullah RoyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abdullah RoyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACADB43A1FD2638A0092E7DD /* Abdullah_RoyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abdullah_RoyTests.swift; sourceTree = "<group>"; };
+		ACADB43C1FD2638A0092E7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACADB4411FD2638A0092E7DD /* Abdullah RoyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abdullah RoyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACADB4451FD2638A0092E7DD /* Abdullah_RoyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abdullah_RoyUITests.swift; sourceTree = "<group>"; };
+		ACADB4471FD2638A0092E7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACADB41F1FD2638A0092E7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB4331FD2638A0092E7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB43E1FD2638A0092E7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACADB4191FD2638A0092E7DD = {
+			isa = PBXGroup;
+			children = (
+				ACADB4241FD2638A0092E7DD /* Abdullah Roy */,
+				ACADB4391FD2638A0092E7DD /* Abdullah RoyTests */,
+				ACADB4441FD2638A0092E7DD /* Abdullah RoyUITests */,
+				ACADB4231FD2638A0092E7DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACADB4231FD2638A0092E7DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB4221FD2638A0092E7DD /* Abdullah Roy.app */,
+				ACADB4361FD2638A0092E7DD /* Abdullah RoyTests.xctest */,
+				ACADB4411FD2638A0092E7DD /* Abdullah RoyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACADB4241FD2638A0092E7DD /* Abdullah Roy */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB4251FD2638A0092E7DD /* AppDelegate.swift */,
+				ACADB4271FD2638A0092E7DD /* ViewController.swift */,
+				ACADB4291FD2638A0092E7DD /* Main.storyboard */,
+				ACADB42C1FD2638A0092E7DD /* Assets.xcassets */,
+				ACADB42E1FD2638A0092E7DD /* LaunchScreen.storyboard */,
+				ACADB4311FD2638A0092E7DD /* Info.plist */,
+			);
+			path = "Abdullah Roy";
+			sourceTree = "<group>";
+		};
+		ACADB4391FD2638A0092E7DD /* Abdullah RoyTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB43A1FD2638A0092E7DD /* Abdullah_RoyTests.swift */,
+				ACADB43C1FD2638A0092E7DD /* Info.plist */,
+			);
+			path = "Abdullah RoyTests";
+			sourceTree = "<group>";
+		};
+		ACADB4441FD2638A0092E7DD /* Abdullah RoyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB4451FD2638A0092E7DD /* Abdullah_RoyUITests.swift */,
+				ACADB4471FD2638A0092E7DD /* Info.plist */,
+			);
+			path = "Abdullah RoyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACADB4211FD2638A0092E7DD /* Abdullah Roy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACADB44A1FD2638A0092E7DD /* Build configuration list for PBXNativeTarget "Abdullah Roy" */;
+			buildPhases = (
+				ACADB41E1FD2638A0092E7DD /* Sources */,
+				ACADB41F1FD2638A0092E7DD /* Frameworks */,
+				ACADB4201FD2638A0092E7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Abdullah Roy";
+			productName = "Abdullah Roy";
+			productReference = ACADB4221FD2638A0092E7DD /* Abdullah Roy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACADB4351FD2638A0092E7DD /* Abdullah RoyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACADB44D1FD2638A0092E7DD /* Build configuration list for PBXNativeTarget "Abdullah RoyTests" */;
+			buildPhases = (
+				ACADB4321FD2638A0092E7DD /* Sources */,
+				ACADB4331FD2638A0092E7DD /* Frameworks */,
+				ACADB4341FD2638A0092E7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACADB4381FD2638A0092E7DD /* PBXTargetDependency */,
+			);
+			name = "Abdullah RoyTests";
+			productName = "Abdullah RoyTests";
+			productReference = ACADB4361FD2638A0092E7DD /* Abdullah RoyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACADB4401FD2638A0092E7DD /* Abdullah RoyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACADB4501FD2638A0092E7DD /* Build configuration list for PBXNativeTarget "Abdullah RoyUITests" */;
+			buildPhases = (
+				ACADB43D1FD2638A0092E7DD /* Sources */,
+				ACADB43E1FD2638A0092E7DD /* Frameworks */,
+				ACADB43F1FD2638A0092E7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACADB4431FD2638A0092E7DD /* PBXTargetDependency */,
+			);
+			name = "Abdullah RoyUITests";
+			productName = "Abdullah RoyUITests";
+			productReference = ACADB4411FD2638A0092E7DD /* Abdullah RoyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACADB41A1FD2638A0092E7DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Abi Sayuti";
+				TargetAttributes = {
+					ACADB4211FD2638A0092E7DD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					ACADB4351FD2638A0092E7DD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACADB4211FD2638A0092E7DD;
+					};
+					ACADB4401FD2638A0092E7DD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACADB4211FD2638A0092E7DD;
+					};
+				};
+			};
+			buildConfigurationList = ACADB41D1FD2638A0092E7DD /* Build configuration list for PBXProject "Abdullah Roy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACADB4191FD2638A0092E7DD;
+			productRefGroup = ACADB4231FD2638A0092E7DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACADB4211FD2638A0092E7DD /* Abdullah Roy */,
+				ACADB4351FD2638A0092E7DD /* Abdullah RoyTests */,
+				ACADB4401FD2638A0092E7DD /* Abdullah RoyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACADB4201FD2638A0092E7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADB4301FD2638A0092E7DD /* LaunchScreen.storyboard in Resources */,
+				ACADB42D1FD2638A0092E7DD /* Assets.xcassets in Resources */,
+				ACADB42B1FD2638A0092E7DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB4341FD2638A0092E7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB43F1FD2638A0092E7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACADB41E1FD2638A0092E7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADB4281FD2638A0092E7DD /* ViewController.swift in Sources */,
+				ACADB4261FD2638A0092E7DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB4321FD2638A0092E7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADB43B1FD2638A0092E7DD /* Abdullah_RoyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB43D1FD2638A0092E7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADB4461FD2638A0092E7DD /* Abdullah_RoyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACADB4381FD2638A0092E7DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACADB4211FD2638A0092E7DD /* Abdullah Roy */;
+			targetProxy = ACADB4371FD2638A0092E7DD /* PBXContainerItemProxy */;
+		};
+		ACADB4431FD2638A0092E7DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACADB4211FD2638A0092E7DD /* Abdullah Roy */;
+			targetProxy = ACADB4421FD2638A0092E7DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACADB4291FD2638A0092E7DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACADB42A1FD2638A0092E7DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACADB42E1FD2638A0092E7DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACADB42F1FD2638A0092E7DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACADB4481FD2638A0092E7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACADB4491FD2638A0092E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACADB44B1FD2638A0092E7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Abdullah Roy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Abdullah-Roy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACADB44C1FD2638A0092E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Abdullah Roy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Abdullah-Roy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACADB44E1FD2638A0092E7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Abdullah RoyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Abdullah-RoyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abdullah Roy.app/Abdullah Roy";
+			};
+			name = Debug;
+		};
+		ACADB44F1FD2638A0092E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Abdullah RoyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Abdullah-RoyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abdullah Roy.app/Abdullah Roy";
+			};
+			name = Release;
+		};
+		ACADB4511FD2638A0092E7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Abdullah RoyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Abdullah-RoyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Abdullah Roy";
+			};
+			name = Debug;
+		};
+		ACADB4521FD2638A0092E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Abdullah RoyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Abdullah-RoyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Abdullah Roy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACADB41D1FD2638A0092E7DD /* Build configuration list for PBXProject "Abdullah Roy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADB4481FD2638A0092E7DD /* Debug */,
+				ACADB4491FD2638A0092E7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACADB44A1FD2638A0092E7DD /* Build configuration list for PBXNativeTarget "Abdullah Roy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADB44B1FD2638A0092E7DD /* Debug */,
+				ACADB44C1FD2638A0092E7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACADB44D1FD2638A0092E7DD /* Build configuration list for PBXNativeTarget "Abdullah RoyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADB44E1FD2638A0092E7DD /* Debug */,
+				ACADB44F1FD2638A0092E7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACADB4501FD2638A0092E7DD /* Build configuration list for PBXNativeTarget "Abdullah RoyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADB4511FD2638A0092E7DD /* Debug */,
+				ACADB4521FD2638A0092E7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACADB41A1FD2638A0092E7DD /* Project object */;
+}
